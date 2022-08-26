@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AutoPetFeeders</title>
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86" charset="utf-8">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/45e38e596f.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style/style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script src="/ajax.js"> </script>  
+</head>
+<body class="w3-animate-opacity" onload="getData()">
+  <div class="w3-teal-plus w3-padding-large">
+    <h1 id="title" class="w3-center w3-text-white"></h1>
+  </div>
+  <div>
+    <ul>
+      <li><a id="home" href="./index.html"></a></li>
+      <li><a id="setting" href="./feedersmanager.html"></a></li>
+      <li><a id="setting_wifi" href="./wifi_setting.html"></a></li>
+    </ul>
+  </div>
+
+  <div class="w3-card-teal w3-padding-24 w3-col s12 w3-center w3-panel" style="font-size:1.0em;border-radius:15px; height: 22em;">
+    <h4 id="mysetting" class="w3-padding w3-little-title"></h4>
+    <label class="w3-col" id="emorning" style="font-weight: bold;"></label><span style="font-weight: normal;" id="morning">00:00</span><br>
+    <label class="w3-col" id="eevening" style="font-weight: bold;"></label><span style="font-weight: normal;" id="evening">00:00</span><br>
+    <label class="w3-col" id="eportion" style="font-weight: bold;"></label><span style="font-weight: normal;" id="portion">0</span><br>
+    <div class="w3-center">
+        <button onclick="onButton()" class="w3-button w3-circle w3-border w3-border-teal w3-round-large" style="width: 200px;" ><h4 id="feed"></h4></button>
+    </div>
+  </div>
+</body>
+<footer>
+    <div class="w3-center">
+        <i id="footer"></i><a class="w3-margin" href="https://www.cults3d.com" id="ddl"></a>
+    </div>
+</footer>
+</html>

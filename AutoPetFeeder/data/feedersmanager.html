@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AutoPetFeeders</title>
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86" charset="utf-8">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style/style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script src="/ajax.js"> </script>  
+</head>
+<body class="w3-animate-opacity" onload="getData()">
+  <div class="w3-teal-plus w3-padding-large">
+    <h1 id="title" class="w3-center w3-text-white"></h1>
+  </div>
+  <ul>
+    <li><a id="home" href="./index.html"></a></li>
+    <li><a id="setting" href="./feedersmanager.html"></a></li>
+    <li><a id="setting_wifi" href="./wifi_setting.html"></a></li>
+  </ul>
+  <div class="w3-card-teal w3-panel">
+    <h1 id="setting_feeders" class="w3-center"></h1>
+    <div class="w3-padding-large w3-center">
+      <form class="w3-col s12" action="/" method="POST">
+        <label class="w3-col" for="morning" id="emorning"></label><input class="w3-center" type="text" id ="morning" name="morning" placeholder="00:00" required="required"><br>
+        <label class="w3-col" for="evening" id="eevening"></label><input class="w3-center" type="text" id ="evening" name="evening" placeholder="00:00" required="required"><br>
+        <label class="w3-col" for="portion" id="eportion"></label><input class="w3-center" type="number" id ="portion" name="portion" placeholder="2" required="required"><br>
+        <div class="w3-center">
+          <button class="w3-button w3-circle w3-border w3-border-teal w3-round-large w3-margin" style="width: 10rem;" type="submit" ><h4 id="submit"></h4></button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+<footer>
+  <div class="w3-center">
+    <i id="footer"></i><a class="w3-margin" href="https://www.cults3d.com" id="ddl"></a>
+  </div>
+</footer>
+</html>

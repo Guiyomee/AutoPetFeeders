@@ -1,0 +1,21 @@
+{
+"data": [ 
+  {"id":"title","text":"Automatique Pet Feeders"},
+  {"id":"home","text":"Acceuil"},
+  {"id":"setting","text":"Réglage"},
+  {"id":"mysetting","text":"Mes réglage"},
+  {"id":"emorning","text":"Heure matin"},
+  {"id":"eevening","text":"Heure Soir"},
+  {"id":"eportion","text":"Portion"},
+  {"id":"feed","text":"Nourrir"},
+  {"id":"submit","text":"Validé"},
+  {"id":"setting_feeders","text":"Configuration du distributeur"},
+  {"id":"setting_wifi","text":"Réglage Wifi"},
+  {"id":"config_wifi","text":"Configuration du Wifi"},
+  {"id":"footer","text":"Développé par Guiyomee"},
+  {"id":"ddl","text":"Télécharger les fichiers STL"},
+  {"id":"text_ssid","text":"Nom du réseau (SSID)"},
+  {"id":"text_password","text":"Clé de sécurité"},
+  {"id":"vi_password","text":"Afficher la clé "},
+  {"id":"selec_lang","text":"Selectionner la langue"}
+]}
